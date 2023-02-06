@@ -69,7 +69,7 @@ a:focus {
 }
 
 main {
-    background-image: url(./imagenes/backgroundimage.png);
+    background-image: url(../imagenes/backgroundimage.png);
     background-repeat: no-repeat;    
     background-size: cover;
     background-attachment: fixed;
@@ -127,7 +127,7 @@ article {
     height: 30em;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./imagenes/gigavssurvivor.png);
+    background-image: url(../imagenes/gigavssurvivor.png);
 }
 .article-main-image {
     display: block;
@@ -157,19 +157,19 @@ div span {
 }
 
 #aside-div-img-dinos {
-    background-image: url(./imagenes/dinosimg.jpg);
+    background-image: url(../imagenes/dinosimg.jpg);
 }
 
 #aside-div-img-caves {
-    background-image: url(./imagenes/arkcave.png);
+    background-image: url(../imagenes/arkcave.png);
 }
 
 #aside-div-img-explorernotes {
-    background-image: url(./imagenes/explorernote.png);
+    background-image: url(../imagenes/explorernote.png);
 }
 
 #aside-div-img-maps {
-    background-image: url(./imagenes/arkmaps.png);
+    background-image: url(../imagenes/arkmaps.png);
 }
 
 .aside-div {
@@ -237,7 +237,7 @@ label {
     margin: 0% 2%;
     height: 25em;
     width: 46%;
-    background-image: url(./imagenes/encuestaimagen.png);
+    background-image: url(../imagenes/encuestaimagen.png);
     background-position: center center;
     background-repeat: no-repeat;    
     background-size: cover;
