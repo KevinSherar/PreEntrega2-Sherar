@@ -1,0 +1,128 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    color: beige;
+}
+
+header {
+    background-color: #16701d;
+}
+
+.site-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+    background-color: rgb(19, 94, 0);
+}
+.nav-item {
+    flex-wrap: nowrap !important;
+}
+
+.arklogo {
+    width: 70px;
+}
+
+
+.color-text {
+    color: beige;
+}
+
+.color-link {
+    color:rgb(45, 223, 0)
+}
+
+main {
+    background-image: url(../imagenes/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section {
+    background-color: #012504be;
+}
+
+article {
+    padding: 1rem 0.5rem !important;
+
+}
+
+.article-main-image {
+    width: 100%;
+}
+
+.text-content {
+    background-color: #04a1119d;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.bg-light-green {
+    background-color: #04a1119d;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #16701d;
+}
+
+#dinos {
+    background-image: url(../imagenes/dinosimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+#cuevas {
+    background-image: url(../imagenes/arkcave.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+#explorernotes {
+    background-image: url(../imagenes/explorernote.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+#mapas {
+    background-image: url(../imagenes/arkmaps.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.article-div-a {
+    padding: 10px;
+    border: rgb(0, 31, 0) solid 4px;
+    background-color: #03530ad5;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav {
+        justify-content: center;
+        overflow-x: hidden;
+    }
+
+    .site-title {
+        font-size: 55px;
+        text-align: start;
+    }
+
+    article {
+        padding: 2rem;
+    }
+
+    .text-content {
+        margin-bottom: 2rem;
+    }
+
+}
