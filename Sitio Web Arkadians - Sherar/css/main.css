@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #16701d;
+    background-color: #025e09;
 }
 
 .site-title {
@@ -18,7 +18,7 @@ header {
 .nav {
     flex-wrap: nowrap !important;
     overflow-x: scroll;
-    background-color: rgb(19, 94, 0);
+    background-color: rgb(14, 66, 1);
 }
 .nav-item {
     flex-wrap: nowrap !important;
@@ -27,7 +27,6 @@ header {
 .arklogo {
     width: 70px;
 }
-
 
 .color-text {
     color: beige;
@@ -103,6 +102,30 @@ footer {
     padding: 10px;
     border: rgb(0, 31, 0) solid 4px;
     background-color: #03530ad5;
+    transition-duration: 0.2s;
+}
+
+.article-div-a:hover {
+    border-radius: 30px;
+    border-color: cyan;
+}
+
+
+a:hover {
+    color: cyan !important;
+}
+
+@keyframes Slide-in-right{
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.Slide-in-right {
+    animation: Slide-in-right 1s ease-in-out 0s 1 normal none;
 }
 
 @media screen and (min-width: 768px) {
@@ -125,4 +148,11 @@ footer {
         margin-bottom: 2rem;
     }
 
+    .article-div-a:hover {
+        padding: 20 px;
+        font-size: 25px;
+        border-radius: 30px;
+        border-color: cyan;
+    }
+    
 }
