@@ -1,0 +1,175 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color-text {
+    color: beige;
+}
+.color-link {
+    color:rgb(45, 223, 0)
+}
+
+.gb-green {
+    background-color: #04a1119d;
+}
+
+.bg-darkgreen {
+    background-color: #025e09;
+}
+
+.bg-darkergreen {
+    background-color: #024407;
+}
+
+.bg-superdarkgreen {
+    background-color: #012c05;
+}
+
+.mobile-d-none {
+    display: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./imagenes/nav-toggler-icon.png) !important;
+}
+
+
+main {
+    background-image: url(../imagenes/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section {
+    background-color: #012504be;
+}
+
+.article-main-image {
+    width: 100%;
+}
+
+.text-content {
+    background-color: #04a1119d;
+    padding: 1rem;
+}
+
+.bg-light-green {
+    background-color: #04a1119d;
+}
+
+#dinos {
+    background-image: url(../imagenes/dinos.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+#cuevas {
+    background-image: url(../imagenes/cuevas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+#explorernotes {
+    background-image: url(../imagenes/notasdelexplorador.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+#mapas {
+    background-image: url(../imagenes/mapas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.article-div-a {
+    padding: 5px;
+    border: rgb(0, 31, 0) solid 4px;
+    background-color: #03530ad5;
+    transition-duration: 0.2s;
+}
+
+.article-div-a:hover {
+    border-radius: 30px;
+    border-color: cyan;
+}
+
+a:hover {
+    color: cyan !important;
+    background-color: rgba(1, 150, 150, 0.692);
+}
+
+footer div p {
+    font-size: 12px;
+}
+
+.h-md-content {
+    max-height: 400px;
+}
+
+@keyframes Slide-in-right{
+    from {
+        transform: translateX(1200px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.Slide-in-right {
+    animation: Slide-in-right 1s ease-in-out 0.5s 1 normal backwards;
+}
+
+@media screen and (min-width: 768px) {
+
+    .mobile-d-none {
+        display: block;
+    }
+    
+    .desktop-d-none {
+        display: none;
+    }
+
+    .article-div-a {
+        padding: 5px;
+        border: rgb(0, 31, 0) solid 4px;
+        background-color: #03530ad5;
+        transition-duration: 0.2s;
+    }
+
+    
+    .article-div-a:hover {
+        padding: 20px;
+        border-radius: 30px;
+        border-color: cyan;
+    }
+    
+    #dinos {
+        background-image: url(../imagenes/dinosimg.jpg);
+        height: 200px;
+    }
+
+    #mapas {
+        background-image: url(../imagenes/arkmaps.png);
+        height: 200px;
+    }
+
+    #cuevas {
+        background-image: url(../imagenes/arkcave.png);
+        height: 200px;
+    }
+    
+    #explorernotes {
+        background-image: url(../imagenes/explorernote.png);
+        height: 200px;
+    }
+
+    footer div p {
+        font-size: 17px;
+    }
+    
+}

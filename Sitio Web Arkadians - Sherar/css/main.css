@@ -59,14 +59,12 @@ article {
 
 .text-content {
     background-color: #04a1119d;
-    border-radius: 10px;
     padding: 1rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .bg-light-green {
     background-color: #04a1119d;
-    border-radius: 5px;
 }
 
 footer {
@@ -154,5 +152,4 @@ a:hover {
         border-radius: 30px;
         border-color: cyan;
     }
-    
 }
