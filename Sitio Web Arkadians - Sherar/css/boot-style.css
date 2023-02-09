@@ -21,7 +21,7 @@
 }
 
 .bg-superdarkgreen {
-    background-color: #012c05;
+    background-color: #012c056b;
 }
 
 .mobile-d-none {
@@ -29,7 +29,7 @@
 }
 
 .navbar-toggler-icon {
-    background-image: url(./imagenes/nav-toggler-icon.png) !important;
+    background-image: url(../imagenes/nav-toggler-icon.png) !important;
 }
 
 
@@ -93,12 +93,14 @@ section {
     transition-duration: 0.2s;
 }
 
-.article-div-a:hover {
+.hover-full:hover {
+    color: cyan !important;
+    background-color: rgba(1, 150, 150, 0.692);
     border-radius: 30px;
     border-color: cyan;
 }
 
-a:hover {
+.hover-simple:hover {
     color: cyan !important;
     background-color: rgba(1, 150, 150, 0.692);
 }
@@ -141,9 +143,9 @@ footer div p {
         transition-duration: 0.2s;
     }
 
-    
-    .article-div-a:hover {
-        padding: 20px;
+
+    .hover-full:hover {
+        padding: 12px;
         border-radius: 30px;
         border-color: cyan;
     }
