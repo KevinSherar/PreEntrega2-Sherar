@@ -1,0 +1,22 @@
+{
+  "name": "repositorio-local-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b-css": "node-sass --include-path scss sass/style.scss css/style.css",
+    "w-css": "nodemon -e scss -x \"npm run b-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u001b[3;3~\u001b[3;2~https://github.com/KevinSherar/PreEntrega2-Sherar"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^19.6.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.58.3"
+  }
+}
