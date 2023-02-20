@@ -1,4 +1,221 @@
+@import "variables/colors.scss";
+@import "animations/keyframes";
+@import "animations/animations";
+
 * {
-    margin: 0px;
-    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Imagenes de fondo */
+
+.navbar-toggler-icon {
+    background-image: url(../imagenes/nav-toggler-icon.png) !important;
+}
+
+main {
+    background-image: url(../imagenes/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#dinos {
+    background-image: url(../imagenes/dinos.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/dinosimg.jpg);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#cuevas {
+    background-image: url(../imagenes/cuevas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/arkcave.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#explorernotes {
+    background-image: url(../imagenes/notasdelexplorador.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/explorernote.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#mapas {
+    background-image: url(../imagenes/mapas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/arkmaps.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+/* Clases para dar forma y/o estilo al contenido */
+
+.img-w-fixed {
+    width: 100%;
+}
+
+.text-content {
+    background-color: $green;
+    padding: 1rem;
+}
+
+.h-md-content {
+    max-height: 400px;
+}
+
+.article-div-a {
+    font-size: 0.8rem;
+    padding: 5px;
+    border: $superdarkgreen solid 4px;
+    background-color: $transparentgreen;
+    transition-duration: 0.2s;
+
+    @media screen and (min-width: 768px) {
+        padding: 5px;
+        border: rgb(0, 31, 0) solid 4px;
+        background-color: #03530ad5;
+        transition-duration: 0.2s;
+    }
+}
+
+footer {
+    background-color:$darkergreen;
+ 
+    p {
+        font-size: 0.6rem;
+        @media screen and (min-width: 768px) {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+
+.div-vid {
+    width: 80%;
+    height: 200px;
+    margin: 1rem auto;
+
+    @media screen and (min-width: 768px) {
+        height: 400px;
+        margin: 1rem auto;
+    }
+}
+
+div {
+    iframe {
+        width: 100%;
+        height: 100%;}
+}
+
+.input-text {
+    width: 100%;
+}
+
+section {
+    background-color: $superdarkgreen;
+}
+
+/* Colores de texto */
+
+.color-text {
+    color: $c-text;
+}
+
+.color-link {
+    color:$brightgreen;
+}
+
+/* Colores de fondo */
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-darkgreen {
+    background-color: $darkgreen;
+}
+
+.bg-darkergreen {
+    background-color: $darkergreen;
+}
+
+.bg-superdarkgreen {
+    background-color: $superdarkgreen;
+}
+
+/* Visibilidad */
+
+.mobile-d-none {
+    display: none;
+    
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.desktop-d-none {
+    @media screen and (min-width: 768px) {
+        display: none
+    }
+}
+
+/* Transiciones */
+
+.hover-full {
+    
+    &:hover {
+        color: $transition-color-l !important;
+        background-color: $transition-color-d;
+        border-radius: 30px;
+        border-color: $transition-color-l;
+
+        @media screen and (min-width: 768px) {
+            padding: 12px;
+            border-radius: 30px;
+            border-color: cyan;
+        }
+    }
+}
+
+.hover-simple {    
+    
+    &:hover {
+        color: $transition-color-l !important;
+        background-color: $transition-color-d;}
 }

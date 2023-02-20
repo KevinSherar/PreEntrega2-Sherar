@@ -1,7 +1,7 @@
 {
   "name": "repositorio-local-git",
   "version": "1.0.0",
-  "description": "",
+  "description": "Página donde puedes conocer gente y aprender cosas relacionadas al juego Ark: Survival Evolved.",
   "main": "index.js",
   "scripts": {
     "b-css": "node-sass --include-path scss sass/style.scss css/style.css",

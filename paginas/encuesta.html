@@ -4,74 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./imagenes/favicon16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="./imagenes/favicon32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./imagenes/favicon96x96.png" sizes="96x96">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>ARK: Encuesta</title>
+    <link rel="icon" type="image/png" href="../imagenes/favicon16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../imagenes/favicon32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../imagenes/favicon96x96.png" sizes="96x96">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Arkadians: Encuesta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <a href="../index.html"><img src="../imagenes/arklogo.png" class="arklogo" alt="Logo de Ark: Survival Evolved"></a><!--
-     --><h1>ARKADIANS</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html"><b>INICIO</b></a></li>
-                <li><a href="dinos.html"><b>DINOS</b></a></li>
-                <li><a href="cuevas.html"><b>CUEVAS</b></a></li>
-                <li><a href="notasdeexplorador.html"><b>NOTAS DE EXPLORADOR</b></a></li>
-                <li><a href="mapas.html"><b>MAPAS</b></a></li>
-                <li><a href="encuesta.html"><b>ENCUESTA</b></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <article class="content">
-                <h2 class="title">Encuesta voluntaria/opcional</h2>
-                <p class="text">Muchas gracias por llegar hasta aquí. La siguiente pequeña encuesta es totalmente voluntaria y no es necesaria para crearse una cuenta (futura función) en <b>ARKADIANS</b>, pero nos es de mucha ayuda para saber que tipo de jugadores llegan a la página y para asi ofrecer un mejor contenido teniendo en cuenta quienes son los que la ven.</p>
-                
-            </article>
-            <article class="content">
-                <div class="form-content">
-                    <h2 class="title">¿Cómo llegaste a este sitio?</h2>
-                    <form action="input">
-                        <input type="text" class="input-text">
-
-                        <h2 class="title">¿Qué tan lejos has llegado en Ark?</h2>
-
-                        <input type="radio" name="cuanto-jugo" id="no-lo-jugue-aun" value="No lo jugué aún">
-                        <label for="no-lo-jugue-aun">No lo jugué aún</label><br>
-                        <input type="radio" name="cuanto-jugo" id="early-game" value="Early-game">
-                        <label for="early-game">Early-game</label><br>
-                        <input type="radio" name="cuanto-jugo" id="mid-game" value="Mid-game">
-                        <label for="mid-game">Mid-game</label><br>
-                        <input type="radio" name="cuanto-jugo" id="late-game" value="Late-game">
-                        <label for="late-game">Late-game</label>
-
-                        <h2 class="title">¿Qué tipo de jugador eres?</h2>
-                    
-                        <input type="radio" name="tipo-de-jugador" id="prefiero-el-pve" value="Prefiero el PvE">
-                        <label for="prefiero-el-pve">Prefiero el PvE</label><br>
-                        <input type="radio" name="tipo-de-jugador" id="prefiero-el-pvp" value="Prefiero el PvP">
-                        <label for="prefiero-el-pvp">Prefiero el PvP</label><br>                   
-                        <input type="radio" name="tipo-de-jugador" id="me-gustan-ambos" value="Me gustan ambos">
-                        <label for="me-gustan-ambos">Me gustan ambos</label><br>
-                        <input type="reset" value="Enviar">
-                    </form>
-                </div><!--
-                --><div class="form-image"></div>
-            </article>
-        </section>
-        <aside>
-            <div class="content">
-                <h2 class="title">¡Gracias por visitar ARKADIANS!</h2>
-                <div><p class="text">Llegaron al fin de la página, pronto tendremos mas contenido para ustedes asique esto no es una despedida, es un hasta pronto!</p></div>
+    <header class="bg-darkgreen">
+        <div class="mobile-d-none">
+            <div class="d-flex justify-content-center align-items-center color-text">
+                <a href="../index.html">
+                    <img src="../imagenes/arklogo.png" class="m-2" width="70px" alt="Logo Arkadians">
+                </a>
+                <h1 class="text-uppercase fw-bold fst-italic m-0">Arkadians</h1>
             </div>
-        </aside>
+            <nav class="bg-darkergreen">
+                <ul class="nav color-link fw-bold justify-content-center overflow-hidden">
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./dinos.html">DINOS</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./cuevas.html">CUEVAS</a>
+                    </li>
+                    <li class="nav-item text-nowrap Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./notasdelexplorador.html">NOTAS DE EXPLORADOR</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./mapas.html">MAPAS</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./encuesta.html">ENCUESTA</a>
+                    </li>
+                </ul>
+            </nav>  
+        </div>        
+        <div class="desktop-d-none">
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container-fluid color-link p-0">
+                    <a class="navbar-brand justify-content-center p-0 m-0" href="../index.html">
+                        <img src="../imagenes/arklogo.png" class="p-0 m-2 justify-self-center" width="70px" alt="">
+                    </a>
+                    <button class="navbar-toggler p-0 mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end bg-darkergreen text-center" id="navbarNav">
+                        <ul class="navbar-nav fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./dinos.html">DINOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./cuevas.html">CUEVAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./notasdelexplorador.html">NOTAS DEL EXPLORADOR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./mapas.html">MAPAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./encuesta.html">ENCUESTA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-0">
+                <section class="container-fluid p-3">
+                    <article class="row text-center color-text">
+                        <div class="col-12">
+                            <div class="text-content rounded">
+                                <h2 class="fw-bold">
+                                    Encuesta Opcional
+                                </h2>                   
+                                <p>
+                                    Muchas gracias por llegar hasta aquí. La siguiente pequeña encuesta es totalmente voluntaria y no es necesaria para crearse una cuenta (futura función) en <b>ARKADIANS</b>, pero nos es de mucha ayuda para saber que tipo de jugadores llegan a la página y para asi ofrecer un mejor contenido teniendo en cuenta quienes son los que la ven.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div>
+                                <img src="../imagenes/encuestaimagen.png" class="md-img-w-fixed rounded" alt="Representación gráfica de una Encuesta">
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div class="text-content rounded text-start">
+                                <form action="input">
+                                    <h2 class="fs-3">¿Cómo has llegado a éste sitio?</h2>
+                                    <input type="text" class="input-text">
+                                    <h2 class="fs-4 mt-3">¿Qué tan lejos has llegado en Ark?</h2>
+                                    <input type="radio" name="cuanto-jugó" id="no-lo-jugue-aun" value="No lo jugué aún">
+                                    <label for="no-lo-jugue-aun">No lo jugué aún.</label><br>
+                                    <input type="radio" name="cuanto-jugó" id="early-game" value="Early-game">
+                                    <label for="early-game">Early-game.</label><br>
+                                    <input type="radio" name="cuanto-jugó" id="mid-game" value="Mid-game">
+                                    <label for="mid-game">Mid-game.</label><br>
+                                    <input type="radio" name="cuanto-jugó" id="late-game" value="Late-game">
+                                    <label for="late-game">Late-game.</label>
+                                    <h2 class="fs-4">¿Qué tipo de jugador eres?</h2>
+                                    <input type="radio" name="tipo-de-jugador" id="prefiero-el-pve" value="Prefiero el PvE">
+                                    <label for="prefiero-el-pve">Prefiero el PvE.</label><br>
+                                    <input type="radio" name="tipo-de-jugador" id="prefiero-el-pvp" value="Prefiero el PvP">
+                                    <label for="prefiero-el-pvp">Prefiero el PvP.</label><br>                   
+                                    <input type="radio" name="tipo-de-jugador" id="me-gustan-ambos" value="Me gustan ambos">
+                                    <label for="me-gustan-ambos">Me gustan ambos.</label><br>
+                                    <input class="mt-3 tex." type="reset" value="Enviar">
+                                </form>
+                            </div> 
+                        </div>
+                       </article>
+                </section>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>Sitio creado por Kevin Sherar para el curso de desarrollo web de &copy; <b>CODERHOUSE</b></p>
+    <footer class="d-flex justify-content-center text-center">
+        <p class="m-2 color-text">Sitio creado por Kevin Sherar para el curso de desarrollo web de &copy;CODERHOUSE</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

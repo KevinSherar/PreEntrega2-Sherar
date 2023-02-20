@@ -4,41 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./imagenes/favicon16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="./imagenes/favicon32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./imagenes/favicon96x96.png" sizes="96x96">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>ARK: Mapas</title>
+    <link rel="icon" type="image/png" href="../imagenes/favicon16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../imagenes/favicon32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../imagenes/favicon96x96.png" sizes="96x96">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Arkadians: Mapas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <a href="../index.html"><img src="../imagenes/arklogo.png" class="arklogo" alt="Logo de Ark: Survival Evolved"></a><!--
-     --><h1>ARKADIANS</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html"><b>INICIO</b></a></li>
-                <li><a href="dinos.html"><b>DINOS</b></a></li>
-                <li><a href="cuevas.html"><b>CUEVAS</b></a></li>
-                <li><a href="notasdeexplorador.html"><b>NOTAS DE EXPLORADOR</b></a></li>
-                <li><a href="mapas.html"><b>MAPAS</b></a></li>
-                <li><a href="encuesta.html"><b>ENCUESTA</b></a></li>
-            </ul>
-        </nav>
+    <header class="bg-darkgreen">
+        <div class="mobile-d-none">
+            <div class="d-flex justify-content-center align-items-center color-text">
+                <a href="../index.html">
+                    <img src="../imagenes/arklogo.png" class="m-2" width="70px" alt="Logo Arkadians">
+                </a>
+                <h1 class="text-uppercase fw-bold fst-italic m-0">Arkadians</h1>
+            </div>
+            <nav class="bg-darkergreen">
+                <ul class="nav color-link fw-bold justify-content-center overflow-hidden">
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./dinos.html">DINOS</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./cuevas.html">CUEVAS</a>
+                    </li>
+                    <li class="nav-item text-nowrap Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./notasdelexplorador.html">NOTAS DE EXPLORADOR</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./mapas.html">MAPAS</a>
+                    </li>
+                    <li class="nav-item Slide-in-right">
+                      <a class="nav-link text-reset  hover-simple" href="./encuesta.html">ENCUESTA</a>
+                    </li>
+                </ul>
+            </nav>  
+        </div>        
+        <div class="desktop-d-none">
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container-fluid color-link p-0">
+                    <a class="navbar-brand justify-content-center p-0 m-0" href="../index.html">
+                        <img src="../imagenes/arklogo.png" class="p-0 m-2 justify-self-center" width="70px" alt="">
+                    </a>
+                    <button class="navbar-toggler p-0 mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end bg-darkergreen text-center" id="navbarNav">
+                        <ul class="navbar-nav fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./dinos.html">DINOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./cuevas.html">CUEVAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./notasdelexplorador.html">NOTAS DEL EXPLORADOR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./mapas.html">MAPAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset hover-simple" href="./encuesta.html">ENCUESTA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <article class="content">
-                <h2 class="title">Mapas / DLCs</h2>
-                <p class="text">Existe una variedad bastante rica de opciones a la hora de elegir en qué mapa jugar Ark. Sin embargo hay que tener en cuenta que cada mapa tiene un orden segun el Lore del juego, por lo que depende de si te interesa ir en orden entonces debes primero ir a The Island, que es el mapa predeterminado. El resto de mapas son DLCs que se compran, pero tienen la ventaja de que comparados con The Island, son mas atractivos visualmente y poseen distintos biomas para explorar y otros dinos extra con distinta jugabilidad.</p>
-                <div><img src="../imagenes/arkmaps2.png" class="div-img" alt="Mapas Ark"></div>
-                <p class="text">
-                    Sin embargo hay que tener en cuenta que hay algunos mapas que estan pensados para los servidores PvP y talvez resulten muy grandes o difíciles/fáciles dependiendo de la perspectiva con la que se analize. Por ello recomiendo investigar (si no interesa completar los mapas según el orden del Lore) cuáles son mejores para aquello que te interesa, sea jugar en PvP o en PvE.
-                </p>
-            </article>
-        </section>
+    <main class="container-fluid">
+        <div class="row">
+            <section class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-0">
+                <article class="text-center color-text p-3">
+                        <div class="text-content rounded">
+                            <h2 class="fw-bold">
+                                Mapas / DLCs
+                            </h2>                   
+                            <p>
+                                    Existe una variedad bastante rica de opciones a la hora de elegir en qué mapa jugar Ark. Sin embargo hay que tener en cuenta que cada mapa tiene un orden segun el Lore del juego, por lo que depende de si te interesa ir en orden entonces debes primero ir a The Island, que es el mapa predeterminado. El resto de mapas son DLCs que se compran, pero tienen la ventaja de que comparados con The Island, son mas atractivos visualmente y poseen distintos biomas para explorar y otros dinos extra con distinta jugabilidad.
+                            </p>
+                        </div>
+                        <div class="my-3"> 
+                            <img src="../imagenes/arkmaps2.png" class="img-w-fixed rounded" alt="Arte del juego Ark: Survival Evolved">
+                        </div>
+                        <div class="text-content rounded">                
+                           <p>
+                                    Sin embargo hay que tener en cuenta que hay algunos mapas que estan pensados para los servidores PvP y talvez resulten muy grandes o difíciles/fáciles dependiendo de la perspectiva con la que se analize. Por ello recomiendo investigar (si no interesa completar los mapas según el orden del Lore) cuáles son mejores para aquello que te interesa, sea jugar en PvP o en PvE.
+                           </p>
+                        </div>
+                </article>
+            </section>
+        </div>
     </main>
-    <footer>
-        <p>Sitio creado por Kevin Sherar para el curso de desarrollo web de &copy; <b>CODERHOUSE</b></p>
+    <footer class="d-flex justify-content-center text-center">
+        <p class="m-2 color-text">Sitio creado por Kevin Sherar para el curso de desarrollo web de &copy;CODERHOUSE</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
