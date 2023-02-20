@@ -1,0 +1,75 @@
+.navbar-toggler-icon {
+    background-image: url(../imagenes/nav-toggler-icon.png) !important;
+}
+
+main {
+    background-image: url(../imagenes/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#dinos {
+    background-image: url(../imagenes/dinos.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/dinosimg.jpg);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#cuevas {
+    background-image: url(../imagenes/cuevas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/arkcave.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#explorernotes {
+    background-image: url(../imagenes/notasdelexplorador.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/explorernote.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+#mapas {
+    background-image: url(../imagenes/mapas.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    
+    @media screen and (min-width: 768px) {
+        background-image: url(../imagenes/arkmaps.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 0;
+    }
+}

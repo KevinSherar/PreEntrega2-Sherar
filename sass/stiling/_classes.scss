@@ -1,0 +1,54 @@
+.color-text {
+    color: $c-text;
+}
+
+.color-link {
+    color:$c-link;
+}
+
+.img-w-fixed {
+    width: 100%;
+}
+
+.md-img-w-fixed {
+    width: 60%;
+}
+
+.text-content {
+    background-color: $green;
+    padding: 1rem;
+}
+
+.h-md-content {
+    max-height: 400px;
+}
+
+.article-div-a {
+    font-size: 0.8rem;
+    padding: 5px;
+    border: $superdarkgreen solid 4px;
+    background-color: $transparentgreen;
+    transition-duration: 0.2s;
+
+    @media screen and (min-width: 768px) {
+        padding: 5px;
+        border: rgb(0, 31, 0) solid 4px;
+        background-color: #03530ad5;
+        transition-duration: 0.2s;
+    }
+}
+
+.div-vid {
+    width: 80%;
+    height: 200px;
+    margin: 1rem auto;
+
+    @media screen and (min-width: 768px) {
+        height: 400px;
+        margin: 1rem auto;
+    }
+}
+
+.input-text {
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+.hover-full {
+    
+    &:hover {
+        color: $transition-color-l !important;
+        background-color: $transition-color-d;
+        border-radius: 30px;
+        border-color: $transition-color-l;
+
+        @media screen and (min-width: 768px) {
+            padding: 12px;
+            border-radius: 30px;
+            border-color: cyan;
+        }
+    }
+}
+
+.hover-simple {    
+    
+    &:hover {
+        color: $transition-color-l !important;
+        background-color: $transition-color-d;}
+}
