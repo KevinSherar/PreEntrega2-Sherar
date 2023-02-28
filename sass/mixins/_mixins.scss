@@ -1,0 +1,18 @@
+@mixin div-id ($url, $media-url) {
+    $medida: 250px;
+
+    background-image: $url;
+    background-size: cover;
+    background-position: center;
+    height: $medida;
+    max-width: $medida;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        background-image: $media-url;
+        height: ($medida - 50);
+        max-width: 100%;
+        margin: 0;
+    }
+
+}

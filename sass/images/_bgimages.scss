@@ -1,3 +1,6 @@
+@import "../mixins/mixins";
+
+
 .navbar-toggler-icon {
     background-image: url(../imagenes/nav-toggler-icon.png) !important;
 }
@@ -11,65 +14,17 @@ main {
 }
 
 #dinos {
-    background-image: url(../imagenes/dinos.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    max-width: 250px;
-    margin: 0 auto;
-
-    @media screen and (min-width: 768px) {
-        background-image: url(../imagenes/dinosimg.jpg);
-        height: 200px;
-        max-width: 100%;
-        margin: 0;
-    }
+    @include div-id (url(../imagenes/dinos.png), url(../imagenes/dinosimg.jpg));
 }
 
 #cuevas {
-    background-image: url(../imagenes/cuevas.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    max-width: 250px;
-    margin: 0 auto;
-
-    @media screen and (min-width: 768px) {
-        background-image: url(../imagenes/arkcave.png);
-        height: 200px;
-        max-width: 100%;
-        margin: 0;
-    }
+    @include div-id (url(../imagenes/cuevas.png), url(../imagenes/arkcave.png));
 }
 
 #explorernotes {
-    background-image: url(../imagenes/notasdelexplorador.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    max-width: 250px;
-    margin: 0 auto;
-
-    @media screen and (min-width: 768px) {
-        background-image: url(../imagenes/explorernote.png);
-        height: 200px;
-        max-width: 100%;
-        margin: 0;
-    }
+    @include div-id (url(../imagenes/notasdelexplorador.png), url(../imagenes/explorernote.png));
 }
 
 #mapas {
-    background-image: url(../imagenes/mapas.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    max-width: 250px;
-    margin: 0 auto;
-    
-    @media screen and (min-width: 768px) {
-        background-image: url(../imagenes/arkmaps.png);
-        height: 200px;
-        max-width: 100%;
-        margin: 0;
-    }
+    @include div-id (url(../imagenes/mapas.png), url(../imagenes/arkmaps.png));
 }
