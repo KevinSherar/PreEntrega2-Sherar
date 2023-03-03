@@ -1,6 +1,5 @@
 @mixin div-id ($url, $media-url) {
     $medida: 250px;
-
     background-image: $url;
     background-size: cover;
     background-position: center;
