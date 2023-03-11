@@ -20,7 +20,7 @@
     text-decoration: none;
 }
 
-@mixin grid-item-img ($img-url: url(../../imagenes/TheIslandportada.jpg) ) {
+@mixin grid-item-img ($img-url: url(../imagenes/TheIslandportada.jpg) ) {
     display: flex;
     justify-content: center;
     align-items: center;

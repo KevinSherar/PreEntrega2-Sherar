@@ -83,7 +83,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../imagenes/TheIslandportada.jpg);
+  background-image: url(../imagenes/TheIslandportada.jpg);
   background-position: center;
   background-size: cover;
   padding: 10px;
