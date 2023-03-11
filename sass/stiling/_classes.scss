@@ -18,36 +18,6 @@
     }
 }
 
-.the-island {
-    @include grid-item-img ;
-}
-.scorched-earth {
-    @include grid-item-img (url(../../imagenes/ScorchedEarthportada.jpg));
-}
-.aberration {
-    @include grid-item-img (url(../../imagenes/Aberrationportada.jpg));
-}
-.extinction {
-    @include grid-item-img (url(../../imagenes/Extinctionportada.jpg));
-}
-.valguero {
-    @include grid-item-img (url(../../imagenes/Valgueroportada.jpg));
-}
-.ragnarok {
-    @include grid-item-img (url(../../imagenes/Ragnarokportada.jpg));
-}
-.crystal-isles {
-    @include grid-item-img (url(../../imagenes/CrystalIslesportada.jpg));
-}
-.the-center {
-    @include grid-item-img (url(../../imagenes/TheCenterportada.jpg));
-}
-.genesis {
-    @include grid-item-img (url(../../imagenes/Genesisportada.jpg));
-}
-.fjordur {
-    @include grid-item-img (url(../../imagenes/Fjordurportada.jpg));
-}
 .carousel {
         $height: 200px;
         height: $height;

@@ -79,6 +79,186 @@ main {
       max-width: 100%;
       margin: 0; } }
 
+.the-island {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../imagenes/TheIslandportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .the-island p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.scorched-earth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/ScorchedEarthportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .scorched-earth p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.aberration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Aberrationportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .aberration p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.extinction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Extinctionportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .extinction p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.valguero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Valgueroportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .valguero p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.ragnarok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Ragnarokportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .ragnarok p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.crystal-isles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/CrystalIslesportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .crystal-isles p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.the-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/TheCenterportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .the-center p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.genesis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Genesisportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .genesis p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
+.fjordur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Fjordurportada.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: .5em;
+  min-height: 150px;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .fjordur p {
+    font-weight: bold;
+    padding: .3em;
+    border-radius: 5px;
+    background-color: #012c05c0;
+    margin: 0px; }
+
 /* Estilizando Tags */
 div iframe {
   width: 100%;
@@ -129,186 +309,6 @@ section {
     color: #00f8f8;
     background-color: #019696b0;
     padding: 0.5em; }
-
-.the-island {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/TheIslandportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .the-island p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.scorched-earth {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/ScorchedEarthportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .scorched-earth p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.aberration {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Aberrationportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .aberration p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.extinction {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Extinctionportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .extinction p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.valguero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Valgueroportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .valguero p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.ragnarok {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Ragnarokportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .ragnarok p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.crystal-isles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/CrystalIslesportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .crystal-isles p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.the-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/TheCenterportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .the-center p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.genesis {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Genesisportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .genesis p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
-
-.fjordur {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imagenes/Fjordurportada.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
-  border-radius: .5em;
-  min-height: 150px;
-  box-shadow: 5px 5px 5px #012c05c0; }
-  .fjordur p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
-    background-color: #012c05c0;
-    margin: 0px; }
 
 .carousel {
   height: 200px; }
