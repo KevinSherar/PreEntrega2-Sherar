@@ -13,5 +13,30 @@
         max-width: 100%;
         margin: 0;
     }
+}
 
+@mixin a-style ($a-color:$c-link) {
+    color: $a-color;
+    text-decoration: none;
+}
+
+@mixin grid-item-img ($img-url: url(../../imagenes/TheIslandportada.jpg) ) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: $img-url;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: .5em;
+    min-height: 150px;
+    box-shadow: 5px 5px 5px $superdarkgreen;
+        p {
+            font-weight: bold;
+            padding: .3em;
+            border-radius: 5px;
+            background-color: $superdarkgreen;
+            margin: 0px;
+        }
+        
 }

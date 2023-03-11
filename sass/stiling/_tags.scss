@@ -1,3 +1,5 @@
+@import "../variables/colors";
+
 div {
 
     iframe {
@@ -6,12 +8,18 @@ div {
     }
 }
 
-li {
-    
-    a {
-        font-size: 0.95rem !important;
+a {
+    &:link {
+        @include a-style ();
+    }
+    &:visited {
+        @include a-style ();
+    }
+    &:focus {
+        @include a-style ();
     }
 }
+
 
 footer {
     background-color:$darkergreen;
@@ -27,5 +35,21 @@ footer {
 
 section {
     background-color: $superdarkgreen;
+    article {
+        padding: 1em;
+        div {
+            ol {
+                list-style: none;
+                padding: 0px;
+                li {
+                    a {
+                        font-size: 0.95rem !important;
+                        
+
+                    }
+                }
+            }
+        }
+    }
 }
 

@@ -82,24 +82,152 @@
     </header>
     <main class="container-fluid">
         <div class="row">
-            <section class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-0">
-                <article class="text-center color-text p-3">
-                        <div class="text-content rounded">
-                            <h2 class="fw-bold">
-                                Mapas / DLCs
-                            </h2>                   
-                            <p>
-                                    Existe una variedad bastante rica de opciones a la hora de elegir en qué mapa jugar Ark. Sin embargo hay que tener en cuenta que cada mapa tiene un orden segun el Lore del juego, por lo que depende de si te interesa ir en orden entonces debes primero ir a The Island, que es el mapa predeterminado. El resto de mapas son DLCs que se compran, pero tienen la ventaja de que comparados con The Island, son mas atractivos visualmente y poseen distintos biomas para explorar y otros dinos extra con distinta jugabilidad.
-                            </p>
+            <section class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-3">
+                <article class="text-center color-text">
+                    <div class="text-content rounded">
+                        <h2>Mapas / DLCs
+                        </h2>
+                        <div class="grid-container">
+                            <div class="grid-item the-island"><a href="#TheIsland"><p>The Island</p></a></div>
+                            <div class="grid-item scorched-earth"><a href="#ScorchedEarth"><p>Scorched Earth</p></a></div>
+                            <div class="grid-item aberration"><a href="#Aberration"><p>Aberration</p></a></div>
+                            <div class="grid-item extinction"><a href="#Extinction"><p>Extinction</p></a></div>
+                            <div class="grid-item valguero"><a href="#Valguero"><p>Valguero</p></a></div>
+                            <div class="grid-item ragnarok"><a href="#Ragnarok"><p>Ragnarok</p></a></div>
+                            <div class="grid-item crystal-isles"><a href="#Crystal-Isles"><p>Crystal Isles</p></a></div>
+                            <div class="grid-item the-center"><a href="#The-Center"><p>The Center</p></a></div>
+                            <div class="grid-item genesis"><a href="#Genesis"><p>Genesis</p></a></div>
+                            <div class="grid-item fjordur"><a href="#Fjordur"><p>Fjordur</p></a></div>
                         </div>
-                        <div class="my-3"> 
-                            <img src="../imagenes/arkmaps2.png" class="img-w-fixed rounded" alt="Mapas y DLCs de Ark Survival Evolved">
-                        </div>
-                        <div class="text-content rounded">                
-                           <p>
-                                    Sin embargo hay que tener en cuenta que hay algunos mapas que estan pensados para los servidores PvP y talvez resulten muy grandes o difíciles/fáciles dependiendo de la perspectiva con la que se analize. Por ello recomiendo investigar (si no interesa completar los mapas según el orden del Lore) cuáles son mejores para aquello que te interesa, sea jugar en PvP o en PvE.
-                           </p>
-                        </div>
+                        <p>Existe una variedad bastante rica de opciones a la hora de elegir en qué mapa jugar Ark. Sin embargo hay que tener en cuenta que cada mapa tiene un orden según el Lore del juego, por lo que depende de si te interesa ir en orden entonces debes primero ir a The Island, que es el mapa predeterminado. El resto de mapas son DLCs que se compran, pero tienen la ventaja de que comparados con The Island, son mas atractivos visualmente y poseen distintos biomas para explorar y otros dinos extra con distinta jugabilidad.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="text-content color-text text-center rounded ">
+                        <h2 class="mb-0 display-4 fw-bold">Imágenes</h2>
+                        <div id="carousel" class="carousel slide">
+                            <div class="carousel-inner color-link text-center fst-italic">
+                                <div class="carousel-item active">
+                                    <p class="text-reset"><a href="#TheIsland">The Island</a></p>
+                                    <img src="../imagenes/TheIsland.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#ScorchedEarth">Scorched Earth</a></p>
+                                    <img src="../imagenes/ScorchedEarth.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#Aberration">Aberration</a></p>
+                                    <img src="../imagenes/Aberration.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#Extinction">Extinction</a></p>
+                                    <img src="../imagenes/Extinction.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#Valguero">Valguero</a></p>
+                                    <img src="../imagenes/Valguero.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#Ragnarok">Ragnarok</a></p>
+                                    <img src="../imagenes/Ragnarok.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#CrytsalIsles">Crytsal Isles</a></p>
+                                    <img src="../imagenes/CrytsalIsles.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#TheCenter">The Center</a></p>
+                                    <img src="../imagenes/TheCenter.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="text-reset"><a href="#Genesis">Genesis</a></p>
+                                    <img src="../imagenes/genesis.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="text-content color-text text-center rounded">
+                        <h2 class="display-4">Información</h2>
+                        <ol>
+                            <li id="TheIsland">
+                                <h3 class="text-uppercase">The Island</h3>
+                                <p>Es el mapa por defecto de Ark: Survival Evolved, y está incluido en la versión básica del juego.
+                                Se aplican todas las mecánicas generales del juego, sin ninguna de ellas siendo especiales (sin permadeath ni nada por el estilo).
+                                Tienes varios tipos de biomas, desde desierto hasta montañas nevadas o volcanes.
+                                </p>
+                            </li>
+                            <li id="ScorchedEarth">
+                                <h3 class="text-uppercase">Scorched Earth</h3>
+                                <p>Se trata de un mapa de pago.
+                                Se compone de una enorme zona desértica.
+                                Además de contar con tormentas de arena y tormentas eléctricas, cuenta con mecánicas especiales como, por ejemplo, que el agua se evapore de las cantimploras. También hay nuevos estados alterados, como el golpe de calor, que tendrás que tener en cuenta.
+                                El entorno también puede destruir estructuras más rápido.
+                                </p>
+                            </li>
+                            <li id="Aberration">
+                                <h3 class="text-uppercase">Aberration</h3>
+                                <p>Se trata de un mapa de pago.
+                                    Es un mapa donde estar en la superficie es extremadamente peligroso, por lo que las zonas a explorar son principalmente cuevas y subterráneos.
+                                    Hay nuevas amenazas naturales: tenemos terremotos, zonas de radiación, piscinas de líquidos dañinos en las cuevas y temperaturas extremadamente altas en la superficie.
+                                </p>
+                            </li>
+                            <li id="Extinction">
+                                <h3 class="text-uppercase">Extinction</h3>
+                                <p>Se trata de un mapa de pago.
+                                    Es un lugar extremadamente peligroso, donde las zonas se encuentran alrededor de Santuario, en el centro del mapa.
+                                    Hay zonas donde podremos recoger entregas de suministros orbitales, puntos naturales de los que extraer Elemento, lugares donde tendremos que defendernos de oleadas de enemigos...
+                                    Hay mecánicas, elementos y criaturas de otras expansiones, además de dinosaurios corruptos. Los más característicos son los Titanes, que son el objetivo final de la expansión.
+                                </p>
+                            </li>
+                            <li id="Valguero">
+                                <h3 class="text-uppercase">Valguero</h3>
+                                <p>Se trata de un mapa incluido con la versión básica del juego.
+                                    Incluye efectos visuales naturales adicionales, como auroras nocturnas o estrellas fugaces. En general, se trata de zonas verdes con zonas nevadas.
+                                    Hay nuevos biomas, entre los que destaca el Abismo, una zona submarina.
+                                </p>
+                            </li>
+                            <li id="Ragnarok">
+                                <h3 class="text-uppercase">Ragnarok</h3>
+                                <p>Se trata de un mapa incluido con la versión básica del juego.
+                                    Es un mapa que es unas cuatro veces mas grande que La Isla. Tenemos varios biomas, siendo el más destacable un volcán, que es considerado como el lugar más peligroso de todo este Ark.
+                                    También podrás encontrar ruinas y naufragios vikingos que puedes explorar.
+                                </p>
+                            </li>
+                            <li id="Crystal-Isles">
+                                <h3 class="text-uppercase">Crytsal Isles</h3>
+                                <p>Se trata de un mapa incluido con la versión básica del juego.
+                                    Estamos en un mapa con multitud de islas, siendo la más representativa la isla de Eldritch, siempre rodeada de oscuridad. También hay una masa de islas flotantes o incluso una enorme colmena que funciona como cueva.
+                                    Como sucede con Valguero, se trata principalmente de una ampliación del juego base.
+                                </p>
+                            </li>
+                            <li id="The-Center">
+                                <h3 class="text-uppercase">The Center</h3>
+                                <p>Se trata de un mapa incluido con la versión básica del juego, puedes acceder de forma gratuita a él.
+                                    Es un mapa con múltiples biomas interconectados: desde zonas subterráneas a sistemas submarinos, montañas o incluso una isla flotante, que da nombre al mapa.
+                                    Por defecto, cuenta con una dificultad más elevada que la de La Isla.
+                                </p>
+                            </li>
+                            <li id="Genesis">
+                                <h3 class="text-uppercase">Genesis</h3>
+                                <p>Se trata de dos mapas, ambos de pago (el segundo estará disponible en marzo de 2021).
+                                    El primero se compone de cinco biomas completamente distintos. Para moverte entre ellos, tendrás que usar una máquina de teletransporte. Tienes una ciénaga, una zona ártica, una zona volcánica, una oceánica y una lunar.
+                                    En cada bioma hay ciertas mecánicas especiales. Por ejemplo, en el ártico debes prestar atención a los aludes que pueden ir colina abajo, llevándote por delante y haciendo daño.
+                                    Tampoco puedes usar criaturas voladoras para moverte por el mapa, a excepción del Astrocetus.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
                 </article>
             </section>
         </div>
