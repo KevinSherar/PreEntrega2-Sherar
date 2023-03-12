@@ -4,7 +4,7 @@
     background-image: url(../imagenes/nav-toggler-icon.png) !important;
 }
 
-main {
+body {
     background-image: url(../imagenes/backgroundimage.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,58 +12,95 @@ main {
     background-position: center;
 }
 
+.back-to-top {
+    background-color: $superdarkgreen;
+    display: inline-block;
+    position: fixed;
+    border-radius: .5em;
+    bottom: 3em;
+    right: .4em;
+    p {
+        margin: 0px;
+        padding: .5em;
+    }
+}
+
 #dinos {
-    @include div-id (url(../imagenes/dinos.png), url(../imagenes/dinosimg.jpg));
+    @include div-id (url(../imagenes/dinosimg.jpg));
+    @include box-shadow;
 }
 
 #cuevas {
-    @include div-id (url(../imagenes/cuevas.png), url(../imagenes/arkcave.png));
+    @include div-id (url(../imagenes/arkcave.png));
+    @include box-shadow;
 }
 
 #explorernotes {
-    @include div-id (url(../imagenes/notasdelexplorador.png), url(../imagenes/explorernote.png));
+    @include div-id (url(../imagenes/explorernote.png));
+    @include box-shadow;
 }
 
 #mapas {
-    @include div-id (url(../imagenes/mapas.png), url(../imagenes/arkmaps.png));
+    @include div-id (url(../imagenes/arkmaps2.png));
+    @include box-shadow;
 }
 
 .the-island {
     @include grid-item-img ;
+    @include box-shadow;
 }
 
 .scorched-earth {
     @include grid-item-img (url(../imagenes/ScorchedEarthportada.jpg));
+    @include box-shadow;
 }
 
 .aberration {
     @include grid-item-img (url(../imagenes/Aberrationportada.jpg));
+    @include box-shadow;
 }
 
 .extinction {
     @include grid-item-img (url(../imagenes/Extinctionportada.jpg));
+    @include box-shadow;
 }
 
 .valguero {
     @include grid-item-img (url(../imagenes/Valgueroportada.jpg));
+    @include box-shadow;
 }
 
 .ragnarok {
     @include grid-item-img (url(../imagenes/Ragnarokportada.jpg));
+    @include box-shadow;
 }
 
 .crystal-isles {
     @include grid-item-img (url(../imagenes/CrystalIslesportada.jpg));
+    @include box-shadow;
 }
 
 .the-center {
     @include grid-item-img (url(../imagenes/TheCenterportada.jpg));
+    @include box-shadow;
 }
 
 .genesis {
     @include grid-item-img (url(../imagenes/Genesisportada.jpg));
+    @include box-shadow;
+}
+
+.genesis2 {
+    @include grid-item-img (url(../imagenes/Genesis2portada.jpg));
+    @include box-shadow;
 }
 
 .fjordur {
     @include grid-item-img (url(../imagenes/Fjordurportada.jpg));
+    @include box-shadow;
+}
+
+.lost-island {
+    @include grid-item-img (url(../imagenes/LostIslandportada.jpg));
+    @include box-shadow;
 }

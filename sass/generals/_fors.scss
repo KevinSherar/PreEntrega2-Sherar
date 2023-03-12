@@ -1,0 +1,5 @@
+@for $i from 1 through 12 {
+  #carousel#{$i} {
+    border: 5px solid darken($bdr-color-base, $i * 6%);
+  }
+}

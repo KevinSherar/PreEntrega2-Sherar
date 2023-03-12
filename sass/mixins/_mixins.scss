@@ -1,16 +1,13 @@
-@mixin div-id ($url, $media-url) {
+@mixin div-id ($url) {
     $medida: 250px;
     background-image: $url;
     background-size: cover;
     background-position: center;
     height: $medida;
-    max-width: $medida;
-    margin: 0 auto;
+    max-width: 100%;
 
     @media screen and (min-width: 768px) {
-        background-image: $media-url;
-        height: ($medida - 50);
-        max-width: 100%;
+        height: ($medida - 50px);
         margin: 0;
     }
 }
@@ -18,6 +15,9 @@
 @mixin a-style ($a-color:$c-link) {
     color: $a-color;
     text-decoration: none;
+}
+@mixin box-shadow {
+    box-shadow: 5px 5px 5px $superdarkgreen;
 }
 
 @mixin grid-item-img ($img-url: url(../imagenes/TheIslandportada.jpg) ) {
@@ -27,16 +27,16 @@
     background-image: $img-url;
     background-position: center;
     background-size: cover;
-    padding: 10px;
     border-radius: .5em;
-    min-height: 150px;
-    box-shadow: 5px 5px 5px $superdarkgreen;
+    
+    a {
+        background-color: $superdarkgreen;
+        border-radius: 5px;
+        
         p {
             font-weight: bold;
             padding: .3em;
-            border-radius: 5px;
-            background-color: $superdarkgreen;
             margin: 0px;
-        }
-        
+        }    
+    }
 }

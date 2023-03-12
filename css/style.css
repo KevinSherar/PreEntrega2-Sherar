@@ -1,3 +1,39 @@
+#carousel1 {
+  border: 5px solid #51ffff; }
+
+#carousel2 {
+  border: 5px solid #33ffff; }
+
+#carousel3 {
+  border: 5px solid #14ffff; }
+
+#carousel4 {
+  border: 5px solid #00f5f5; }
+
+#carousel5 {
+  border: 5px solid #00d6d6; }
+
+#carousel6 {
+  border: 5px solid #00b7b7; }
+
+#carousel7 {
+  border: 5px solid #009999; }
+
+#carousel8 {
+  border: 5px solid #007a7a; }
+
+#carousel9 {
+  border: 5px solid #005c5c; }
+
+#carousel10 {
+  border: 5px solid #003d3d; }
+
+#carousel11 {
+  border: 5px solid #001e1e; }
+
+#carousel12 {
+  border: 5px solid black; }
+
 /* Animaciones */
 @keyframes Slide-in-right {
   from {
@@ -16,67 +52,70 @@
 .navbar-toggler-icon {
   background-image: url(../imagenes/nav-toggler-icon.png) !important; }
 
-main {
+body {
   background-image: url(../imagenes/backgroundimage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
 
+.back-to-top {
+  background-color: #012c05c0;
+  display: inline-block;
+  position: fixed;
+  border-radius: .5em;
+  bottom: 3em;
+  right: .4em; }
+  .back-to-top p {
+    margin: 0px;
+    padding: .5em; }
+
 #dinos {
-  background-image: url(../imagenes/dinos.png);
+  background-image: url(../imagenes/dinosimg.jpg);
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 250px;
-  margin: 0 auto; }
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #012c05c0; }
   @media screen and (min-width: 768px) {
     #dinos {
-      background-image: url(../imagenes/dinosimg.jpg);
       height: 200px;
-      max-width: 100%;
       margin: 0; } }
 
 #cuevas {
-  background-image: url(../imagenes/cuevas.png);
+  background-image: url(../imagenes/arkcave.png);
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 250px;
-  margin: 0 auto; }
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #012c05c0; }
   @media screen and (min-width: 768px) {
     #cuevas {
-      background-image: url(../imagenes/arkcave.png);
       height: 200px;
-      max-width: 100%;
       margin: 0; } }
 
 #explorernotes {
-  background-image: url(../imagenes/notasdelexplorador.png);
+  background-image: url(../imagenes/explorernote.png);
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 250px;
-  margin: 0 auto; }
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #012c05c0; }
   @media screen and (min-width: 768px) {
     #explorernotes {
-      background-image: url(../imagenes/explorernote.png);
       height: 200px;
-      max-width: 100%;
       margin: 0; } }
 
 #mapas {
-  background-image: url(../imagenes/mapas.png);
+  background-image: url(../imagenes/arkmaps2.png);
   background-size: cover;
   background-position: center;
   height: 250px;
-  max-width: 250px;
-  margin: 0 auto; }
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #012c05c0; }
   @media screen and (min-width: 768px) {
     #mapas {
-      background-image: url(../imagenes/arkmaps.png);
       height: 200px;
-      max-width: 100%;
       margin: 0; } }
 
 .the-island {
@@ -86,16 +125,15 @@ main {
   background-image: url(../imagenes/TheIslandportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .the-island p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .the-island a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .the-island a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .scorched-earth {
   display: flex;
@@ -104,16 +142,15 @@ main {
   background-image: url(../imagenes/ScorchedEarthportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .scorched-earth p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .scorched-earth a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .scorched-earth a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .aberration {
   display: flex;
@@ -122,16 +159,15 @@ main {
   background-image: url(../imagenes/Aberrationportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .aberration p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .aberration a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .aberration a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .extinction {
   display: flex;
@@ -140,16 +176,15 @@ main {
   background-image: url(../imagenes/Extinctionportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .extinction p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .extinction a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .extinction a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .valguero {
   display: flex;
@@ -158,16 +193,15 @@ main {
   background-image: url(../imagenes/Valgueroportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .valguero p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .valguero a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .valguero a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .ragnarok {
   display: flex;
@@ -176,16 +210,15 @@ main {
   background-image: url(../imagenes/Ragnarokportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .ragnarok p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .ragnarok a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .ragnarok a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .crystal-isles {
   display: flex;
@@ -194,16 +227,15 @@ main {
   background-image: url(../imagenes/CrystalIslesportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .crystal-isles p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .crystal-isles a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .crystal-isles a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .the-center {
   display: flex;
@@ -212,16 +244,15 @@ main {
   background-image: url(../imagenes/TheCenterportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .the-center p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .the-center a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .the-center a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .genesis {
   display: flex;
@@ -230,16 +261,32 @@ main {
   background-image: url(../imagenes/Genesisportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .genesis p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .genesis a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .genesis a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
+
+.genesis2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Genesis2portada.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: .5em;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .genesis2 a {
+    background-color: #012c05c0;
+    border-radius: 5px; }
+    .genesis2 a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 .fjordur {
   display: flex;
@@ -248,16 +295,32 @@ main {
   background-image: url(../imagenes/Fjordurportada.jpg);
   background-position: center;
   background-size: cover;
-  padding: 10px;
   border-radius: .5em;
-  min-height: 150px;
   box-shadow: 5px 5px 5px #012c05c0; }
-  .fjordur p {
-    font-weight: bold;
-    padding: .3em;
-    border-radius: 5px;
+  .fjordur a {
     background-color: #012c05c0;
-    margin: 0px; }
+    border-radius: 5px; }
+    .fjordur a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
+
+.lost-island {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/LostIslandportada.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: .5em;
+  box-shadow: 5px 5px 5px #012c05c0; }
+  .lost-island a {
+    background-color: #012c05c0;
+    border-radius: 5px; }
+    .lost-island a p {
+      font-weight: bold;
+      padding: .3em;
+      margin: 0px; }
 
 /* Estilizando Tags */
 div iframe {
@@ -279,20 +342,27 @@ a:focus {
 footer {
   background-color: #024407; }
   footer p {
-    font-size: 0.6rem; }
+    font-size: 0.6rem;
+    margin-bottom: 0px; }
     @media screen and (min-width: 768px) {
       footer p {
         font-size: 1.1rem; } }
 
 section {
-  background-color: #012c05c0; }
+  background-image: linear-gradient(to right, transparent 0%, #012c05c0 2%, #012c05c0 98%, transparent 100%); }
   section article {
     padding: 1em; }
     section article div ol {
       list-style: none;
       padding: 0px; }
+      section article div ol li h3 {
+        font-style: italic; }
       section article div ol li a {
         font-size: 0.95rem !important; }
+      @media screen and (min-width: 768px) {
+        section article div ol li p {
+          padding: 1em;
+          text-align: justify; } }
 
 /* Estilizando Clases */
 .grid-container {
@@ -301,42 +371,59 @@ section {
   grid-auto-rows: 10rem;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: .5em;
-  margin-bottom: 1em; }
+  margin: 0 auto 1em;
+  max-width: 1240px; }
+  .grid-container .grid-item a:hover {
+    color: #70ffff;
+    background-color: #018080b0; }
+  .grid-container .grid-item p {
+    margin-bottom: 0px;
+    transition-duration: 0.1s; }
+    .grid-container .grid-item p:hover {
+      padding: 0.5em; }
 
-.grid-item p {
-  transition-duration: 0.1s; }
-  .grid-item p:hover {
-    color: #00f8f8;
-    background-color: #019696b0;
-    padding: 0.5em; }
+.grid-container-index {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr); }
+  @media screen and (min-width: 768px) {
+    .grid-container-index {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr); } }
+  @media screen and (min-width: 1440px) {
+    .grid-container-index {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr; } }
 
 .carousel {
-  height: 200px; }
+  margin: 0 auto 1em;
+  box-sizing: border-box;
+  height: 150px;
+  max-width: 400px; }
   @media screen and (min-width: 425px) {
     .carousel {
-      height: 270px; } }
+      height: 220px; } }
   @media screen and (min-width: 768px) {
     .carousel {
-      height: 320px; } }
+      height: 270px;
+      max-width: 500px; } }
   @media screen and (min-width: 1024px) {
     .carousel {
-      height: 400px; } }
+      height: 390px;
+      max-width: 600px; } }
   @media screen and (min-width: 1440px) {
     .carousel {
-      height: 600px; } }
+      height: 500px;
+      max-width: 800px; } }
   @media screen and (min-width: 2560px) {
     .carousel {
-      height: 920px; } }
+      height: 870px;
+      max-width: none; } }
   .carousel .carousel-inner {
     height: 100%; }
     .carousel .carousel-inner .carousel-item {
       height: 100%; }
-      .carousel .carousel-inner .carousel-item p {
-        margin: 0px;
-        padding: 5px 0px; }
-        .carousel .carousel-inner .carousel-item p a:link {
-          color: inherit;
-          text-decoration: none; }
       .carousel .carousel-inner .carousel-item img {
         height: 100%;
         text-align: center; }
@@ -360,6 +447,9 @@ section {
 .h-md-content {
   max-height: 400px; }
 
+.nav-item {
+  font-size: 0.9em; }
+
 .article-div-a {
   font-size: 0.8rem;
   padding: 5px;
@@ -374,13 +464,9 @@ section {
       transition-duration: 0.2s; } }
 
 .div-vid {
-  width: 70%;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 16/9;
   margin: 1rem auto; }
-  @media screen and (min-width: 768px) {
-    .div-vid {
-      height: 250px;
-      margin: 1rem auto; } }
 
 .input-text {
   width: 100%; }
@@ -411,10 +497,10 @@ section {
 
 /* Transiciones */
 .hover-full:hover {
-  color: #00f8f8 !important;
-  background-color: #019696b0;
+  color: #70ffff !important;
+  background-color: #018080b0;
   border-radius: 30px;
-  border-color: #00f8f8; }
+  border-color: #70ffff; }
   @media screen and (min-width: 768px) {
     .hover-full:hover {
       padding: 12px;
@@ -422,5 +508,5 @@ section {
       border-color: cyan; } }
 
 .hover-simple:hover {
-  color: #00f8f8 !important;
-  background-color: #019696b0; }
+  color: #70ffff !important;
+  background-color: #018080b0; }

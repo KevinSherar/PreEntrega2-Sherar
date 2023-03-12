@@ -80,13 +80,17 @@
             </nav>
         </div>
     </header>
+    <div class="back-to-top mobile-d-none hover-simple color-link">
+        <a href="#" class="text-reset">
+            <p>Volver al inicio</p>
+        </a>
+    </div>
     <main class="container-fluid">
         <div class="row">
             <section class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-3">
                 <article class="text-center color-text">
                     <div class="text-content rounded">
-                        <h2>Mapas / DLCs
-                        </h2>
+                        <h2 class="display-5">Mapas y DLCs</h2>
                         <div class="grid-container">
                             <div class="grid-item the-island"><a href="#TheIsland"><p>The Island</p></a></div>
                             <div class="grid-item scorched-earth"><a href="#ScorchedEarth"><p>Scorched Earth</p></a></div>
@@ -98,133 +102,324 @@
                             <div class="grid-item the-center"><a href="#The-Center"><p>The Center</p></a></div>
                             <div class="grid-item genesis"><a href="#Genesis"><p>Genesis</p></a></div>
                             <div class="grid-item fjordur"><a href="#Fjordur"><p>Fjordur</p></a></div>
+                            <div class="grid-item genesis2"><a href="#Genesis2"><p>Genesis<br>Parte 2</p></a></div>
+                            <div class="grid-item lost-island"><a href="#Lost-Island"><p>Lost Island</p></a></div>
                         </div>
                         <p>Existe una variedad bastante rica de opciones a la hora de elegir en qué mapa jugar Ark. Sin embargo hay que tener en cuenta que cada mapa tiene un orden según el Lore del juego, por lo que depende de si te interesa ir en orden entonces debes primero ir a The Island, que es el mapa predeterminado. El resto de mapas son DLCs que se compran, pero tienen la ventaja de que comparados con The Island, son mas atractivos visualmente y poseen distintos biomas para explorar y otros dinos extra con distinta jugabilidad.
                         </p>
                     </div>
                 </article>
-                <article>
-                    <div class="text-content color-text text-center rounded ">
-                        <h2 class="mb-0 display-4 fw-bold">Imágenes</h2>
-                        <div id="carousel" class="carousel slide">
-                            <div class="carousel-inner color-link text-center fst-italic">
-                                <div class="carousel-item active">
-                                    <p class="text-reset"><a href="#TheIsland">The Island</a></p>
-                                    <img src="../imagenes/TheIsland.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#ScorchedEarth">Scorched Earth</a></p>
-                                    <img src="../imagenes/ScorchedEarth.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#Aberration">Aberration</a></p>
-                                    <img src="../imagenes/Aberration.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#Extinction">Extinction</a></p>
-                                    <img src="../imagenes/Extinction.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#Valguero">Valguero</a></p>
-                                    <img src="../imagenes/Valguero.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#Ragnarok">Ragnarok</a></p>
-                                    <img src="../imagenes/Ragnarok.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#CrytsalIsles">Crytsal Isles</a></p>
-                                    <img src="../imagenes/CrytsalIsles.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#TheCenter">The Center</a></p>
-                                    <img src="../imagenes/TheCenter.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="text-reset"><a href="#Genesis">Genesis</a></p>
-                                    <img src="../imagenes/genesis.jpg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                    </div>
-                </article>
+            </section>
+            <section class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2 px-3">
                 <article>
                     <div class="text-content color-text text-center rounded">
-                        <h2 class="display-4">Información</h2>
+                        <h2 class="display-4 fw-bold">Información</h2>
                         <ol>
                             <li id="TheIsland">
-                                <h3 class="text-uppercase">The Island</h3>
-                                <p>Es el mapa por defecto de Ark: Survival Evolved, y está incluido en la versión básica del juego.
-                                Se aplican todas las mecánicas generales del juego, sin ninguna de ellas siendo especiales (sin permadeath ni nada por el estilo).
-                                Tienes varios tipos de biomas, desde desierto hasta montañas nevadas o volcanes.
-                                </p>
+                                <h3 class="display-5">The Island</h3>
+                                <div id="carousel1" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/the-islandslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/the-islandslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/the-islandslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Como hombre o mujer desnudo, congelado y muriendo de hambre en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar, construir objetos, plantar cultivos, investigar tecnologías y construir refugios para soportar los elementos. Usa tu astucia y recursos para matar o domesticar dinosaurios y otros seres primitivos, y asóciate con otros jugadores o atácalos para sobrevivir, dominar... y escapar!</p>
                             </li>
                             <li id="ScorchedEarth">
-                                <h3 class="text-uppercase">Scorched Earth</h3>
-                                <p>Se trata de un mapa de pago.
-                                Se compone de una enorme zona desértica.
-                                Además de contar con tormentas de arena y tormentas eléctricas, cuenta con mecánicas especiales como, por ejemplo, que el agua se evapore de las cantimploras. También hay nuevos estados alterados, como el golpe de calor, que tendrás que tener en cuenta.
-                                El entorno también puede destruir estructuras más rápido.
-                                </p>
+                                <h3 class="display-5">Scorched Earth</h3>
+                                <div id="carousel2" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/scorched-earthslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/scorched-earthslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/scorched-earthslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Abandonado, desnudo, perdido, deshidratado y hambriento en un inmenso desierto, incluso los más experimentados supervivientes de ARK deben encontrar agua rápidamente, cazar para alimentarse, cosechar, craftear artículos y construir refugio para tener alguna oportunidad de supervivencia. Usa las habilidades adquiridas en la isla lejana de ARK para matar, domesticar, criar y montar las nuevas criaturas fantásticas que han evolucionado para sobrevivir en las duras condiciones del desierto, incluyendo... DRAGONES! ¡Viaja entre la isla y el desierto y colabora con cientos de jugadores a través de ambos mundos o juega en local!</p>
+                                <p>Scorched Earth lleva a los jugadores una tierra totalmente nueva, compuesta de seis ecosistemas con temática desértica dunas, desierto profundo, montañas, cañones, tierras baldías y oasis con su propia estética y ecosistema. Salpicada de ruinas, géisers y antiguos sistemas de cuevas, los supervivientes encontraran una nueva frontera para explorar y dominar.</p>
                             </li>
                             <li id="Aberration">
-                                <h3 class="text-uppercase">Aberration</h3>
-                                <p>Se trata de un mapa de pago.
-                                    Es un mapa donde estar en la superficie es extremadamente peligroso, por lo que las zonas a explorar son principalmente cuevas y subterráneos.
-                                    Hay nuevas amenazas naturales: tenemos terremotos, zonas de radiación, piscinas de líquidos dañinos en las cuevas y temperaturas extremadamente altas en la superficie.
-                                </p>
+                                <h3 class="display-5">Aberration</h3>
+                                <div id="carousel3" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/aberrationslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/aberrationslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/aberrationslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Despierta en 'Aberration', un ARK abandonado y defectuoso con un elaborado sistema de bioma subterráneo, los supervivientes se enfrentan a nuevos y exóticos desafíos, como nunca antes lo habían hecho: la luz solar radiactiva extrema y los peligros ambientales, tirolinas, trajes con alas, equipo de escalada, viviendas en cuevas, baterías de carga y mucho más, junto con un establo de extraordinarias criaturas nuevas, esperan en las profundidades misteriosas. ¡Pero cuidado con los "sin nombre": ¡implacables, humanoides infundidos con elementos que se han convertido en monstruosidades viciosas que odian la luz! En Aberration, los supervivientes descubrirán los secretos más importantes de los ARK ¡y descubrirán lo que depara el futuro para aquellos que sean lo suficientemente fuertes e inteligentes como para sobrevivir!</p>
                             </li>
                             <li id="Extinction">
-                                <h3 class="text-uppercase">Extinction</h3>
-                                <p>Se trata de un mapa de pago.
-                                    Es un lugar extremadamente peligroso, donde las zonas se encuentran alrededor de Santuario, en el centro del mapa.
-                                    Hay zonas donde podremos recoger entregas de suministros orbitales, puntos naturales de los que extraer Elemento, lugares donde tendremos que defendernos de oleadas de enemigos...
-                                    Hay mecánicas, elementos y criaturas de otras expansiones, además de dinosaurios corruptos. Los más característicos son los Titanes, que son el objetivo final de la expansión.
-                                </p>
+                                <h3 class="display-5">Extinction</h3>
+                                <div id="carousel4" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/extinctionslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/extinctionslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/extinctionslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Termina tu viaje a través de los mundos de ARK en "Extinción", donde la historia comenzó y termina: ¡en la Tierra misma! Un planeta devastado e infestado de elementos, lleno de criaturas fantásticas tanto orgánicas como tecnológicas, la Tierra guarda los secretos del pasado y las claves de su salvación. Como un sobreviviente veterano que ha vencido todos los obstáculos anteriores, su desafío final lo espera: ¿puede derrotar a los gigantes titanes que dominan el planeta y completar el ciclo ARK para salvar el futuro de la Tierra?</p>
                             </li>
                             <li id="Valguero">
-                                <h3 class="text-uppercase">Valguero</h3>
-                                <p>Se trata de un mapa incluido con la versión básica del juego.
-                                    Incluye efectos visuales naturales adicionales, como auroras nocturnas o estrellas fugaces. En general, se trata de zonas verdes con zonas nevadas.
-                                    Hay nuevos biomas, entre los que destaca el Abismo, una zona submarina.
-                                </p>
+                                <h3 class="display-5">Valguero</h3>
+                                <div id="carousel5" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/valgueroslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/valgueroslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/valgueroslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Sobrevivientes, ¡venga a explorar un vasto y diverso mapa de 63 km con una multitud de nuevas tierras para construir! Sé testigo de las criaturas familiares de ARK en un entorno amplio y conoce a Deinonychus, el más nuevo terópodo con plumas de ARK, que solo se encuentra en Valguero.
+                                    Explora nuevas alturas y profundidades ocultas; Valguero ofrece una nueva experiencia en el universo ARK, ya sea creando tus cimientos en los Acantilados Blancos o descubriendo los secretos de la Fosa de Aberración. Con nuevos biomas, desafiantes jefes de mazmorras y misteriosas ruinas por descubrir, siempre hay algo emocionante, y peligroso, en Valguero. Entre sus más de 60 kilómetros, encontrará de todo, desde selvas exuberantes a peligros ambientales, campos de nieve a flujos de lava y sabanas a aguas termales.</p>
                             </li>
                             <li id="Ragnarok">
-                                <h3 class="text-uppercase">Ragnarok</h3>
-                                <p>Se trata de un mapa incluido con la versión básica del juego.
-                                    Es un mapa que es unas cuatro veces mas grande que La Isla. Tenemos varios biomas, siendo el más destacable un volcán, que es considerado como el lugar más peligroso de todo este Ark.
-                                    También podrás encontrar ruinas y naufragios vikingos que puedes explorar.
-                                </p>
+                                <h3 class="display-5">Ragnarok</h3>
+                                <div id="carousel6" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/ragnarokslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/ragnarokslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/ragnarokslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Viaja a través de un basto mapa de 144 kilómetros cuadrados donde elementos de The Island, Scorched Earth, y todos los nuevos biomas son combinados para brindar la mejor experiencia de supervivencia. Afrontando el frío extremo desde lo alto de las más altas montañas, recolectar recursos de un volcán activo, o simplemente buscar ese lugar perfecto para una base, Ragnarok juega al anfitrión hasta los exploradores y los parecidos a los constructores de bases. Pero cuidado supervivientes, Ragnarok alvergara tales criaturas como osos polares, dragones de hielo y una criatura mística que muchos aún tienen que domesticar en el Universo ARK. Ragnarok cuenta con muchas características únicas, tales como: Notas de explorador personalizables, mazmorras desafiantes, jefes de mazmorra, primaveras calientes activas, un único apto-para tomar/recursos recolectables, nuevos biomas, un volcán activo, lugares únicos de plataformas para árboles, trampas ambientales, ruinas únicas, y mucho más combinado con un hermoso mundo para explorar.</p>
                             </li>
                             <li id="Crystal-Isles">
-                                <h3 class="text-uppercase">Crytsal Isles</h3>
-                                <p>Se trata de un mapa incluido con la versión básica del juego.
-                                    Estamos en un mapa con multitud de islas, siendo la más representativa la isla de Eldritch, siempre rodeada de oscuridad. También hay una masa de islas flotantes o incluso una enorme colmena que funciona como cueva.
-                                    Como sucede con Valguero, se trata principalmente de una ampliación del juego base.
-                                </p>
+                                <h3 class="display-5">Crytsal Isles</h3>
+                                <div id="carousel7" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/crystal-islesslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/crystal-islesslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/crystal-islesslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Crystal Isles es 150 kilómetros cuadrados de paisajes coloridos y biomas impresionantes llenos de vida. La belleza sobrenatural de map se ha ganado los corazones de la comunidad ARK desde su debut como mod en 2016, y la hemos pulido para resaltar su brillo.
+                                    Si crees que conoces las Islas de Cristal o planeas explorar este mapa por primera vez, debes estar preparado para nuevos descubrimientos. Construye tus bases en lo alto del dosel de la selva tropical y las misteriosas islas flotantes, luego sumérgete en las cavernas submarinas en busca de recursos. y ensilla tu propio Tropeognathus, el pterosaurio más nuevo de ARK, para un vertiginoso viaje impulsado por combustible a reacción en combate aéreo, ¡completo con un poderoso cañón antiaéreo montado!</p>
                             </li>
                             <li id="The-Center">
-                                <h3 class="text-uppercase">The Center</h3>
-                                <p>Se trata de un mapa incluido con la versión básica del juego, puedes acceder de forma gratuita a él.
-                                    Es un mapa con múltiples biomas interconectados: desde zonas subterráneas a sistemas submarinos, montañas o incluso una isla flotante, que da nombre al mapa.
-                                    Por defecto, cuenta con una dificultad más elevada que la de La Isla.
-                                </p>
+                                <h3 class="display-5">The Center</h3>
+                                <div id="carousel8" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/the-centerslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/the-centerslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/the-centerslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>The Center es un complemento gratuito para ARK: Survival Evolved que incluye un nuevo mapa gigante para que los sobrevivientes exploren, casi el doble del tamaño de la geografía jugable del paisaje de ARK estándar, cerca de 70 kilómetros cuadrados. The Center complementa los actuales biomas de ARK con una estética al estilo Tolkien rico, dibujado a mano. Lleno de impresionantes efectos de iluminación, ríos de lava, gigantes montañas pintorescas, brumosas islas flotantes, cuevas de hielo subterráneas antiguas y más, The Center es gratuito para cualquier persona que tenga ya ARK: Survival Evolved.</p>
                             </li>
                             <li id="Genesis">
-                                <h3 class="text-uppercase">Genesis</h3>
-                                <p>Se trata de dos mapas, ambos de pago (el segundo estará disponible en marzo de 2021).
-                                    El primero se compone de cinco biomas completamente distintos. Para moverte entre ellos, tendrás que usar una máquina de teletransporte. Tienes una ciénaga, una zona ártica, una zona volcánica, una oceánica y una lunar.
-                                    En cada bioma hay ciertas mecánicas especiales. Por ejemplo, en el ártico debes prestar atención a los aludes que pueden ir colina abajo, llevándote por delante y haciendo daño.
-                                    Tampoco puedes usar criaturas voladoras para moverte por el mapa, a excepción del Astrocetus.
+                                <h3 class="display-5">Genesis</h3>
+                                <div id="carousel9" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/genesisslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/genesisslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/genesisslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>En Genesis Part 1, te despiertas dentro de una simulación virtual, ¡debes sobrevivir en un mundo diferente a todo lo que hayas visto antes! ARK: Genesis representa un nuevo comienzo orientado a la historia en la épica saga de supervivencia de ARK. Con un compañero extrañamente familiar, debes superar las rigurosas pruebas de la simulación. Solo luchando, construyendo, domesticando y explorando descubrirás los secretos detrás de este terrible lugar.</p>
+                            </li>
+                            <li id="Genesis2">
+                                <h3 class="display-5">Genesis Parte 2</h3>
+                                <div id="carousel10" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/genesis2slide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/genesis2slide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/genesis2slide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>En Genesis Part 2, emergerás en un vasto mundo físico nuevo repleto de biomas extraños y criaturas exóticas, mientras participas en extensas misiones orientadas a la historia que ponen a prueba tu temple, ingenio y habilidades de supervivencia. Empuñando una variedad de nuevos y poderosos domesticadores, objetos, armas y estructuras, viajarás desde campos idílicos a través de reinos fantasmagóricos crepusculares, hasta llegar a un corazón de oscuridad literalmente infernal. A miles de años y billones de millas de donde comenzó tu historia, desafiarás al villano de la serie Rockwell en una confrontación final para determinar el destino de la humanidad. El futuro está en tus manos, Superviviente, ¡una última vez!</p>
+                            </li>
+                            <li id="Fjordur">
+                                <h3 class="display-5">Fjordur</h3>
+                                <div id="carousel11" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/fjordurslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/fjordurslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/fjordurslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>¡Explore un archipiélago frío y hostil de inspiración nórdica en el mapa comunitario oficial más nuevo de ARK, que presenta cuatro nuevas criaturas para que las coleccione! ¡Fjordur contiene más de 140 kilómetros cuadrados de nuevos biomas, nuevos desafíos y descubrimientos gratificantes!
+                                </P>
+                                <P>Atraviesa un fantástico país de las maravillas de varias capas con un tema nórdico helado. Cuatro islas únicas, Vardiland, Vannaland, Bolbjord y Balheimr, y los reinos místicos; Jotunheim, Vanaheim y Asgard ofrecen una respuesta de elaborados sistemas de cuevas con ruinas escandinavas y vastas entradas monolíticas. Tome un camino sagrado bien transitado para presentar sus respetos al inmenso y sagrado árbol del mundo, Yggdrasil. Los vestigios de los antiguos reinos enanos recuerdan una era perdida, cuyos restos aportan una historia impresionante al mundo de Fjordur. ¡Este hermoso y mítico mundo invita a los sobrevivientes a una tierra profundamente boscosa de maravillas y exploración pasadas!
                                 </p>
+                            </li>
+                            <li id="Lost-Island">
+                                <h3 class="display-5">Lost Island</h3>
+                                <div id="carousel12" class="carousel slide">
+                                    <div class="carousel-inner color-link text-center fst-italic">
+                                        <div class="carousel-item active">
+                                            <img src="../imagenes/lost-islandslide1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/lost-islandslide2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../imagenes/lost-islandslide3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Explora las alturas inalcanzables y las profundidades insondables del nuevo mapa oficial de la comunidad de ARK, ¡que además incluye tres nuevas criaturas para domesticar! Lost Island incluye más de 150 kilómetros cuadrados de biomas y desafíos nuevos, y de misteriosas ruinas. Descubre valles en junglas alimentadas por enormes cascadas, construye una casa en un árbol en los doseles arbóreos, mánchate recorriendo pantanos y lodazales, haz submarinismo a gran profundidad, llega a lo alto de los picos más nevados, o haz espeleología en sistema de cuevas sin explorar en busca de tesoros… ¡Seas quien seas, tendrás algo para hacer!</p>
                             </li>
                         </ol>
                     </div>
